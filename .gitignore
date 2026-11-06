@@ -3,6 +3,11 @@
 !/.gitignore
 !/Project.toml
 !/README.md
+!/LICENSE
+!/NOTICE.md
+!/CITATION.cff
+!/third_party/
+!/third_party/**
 !/src/
 /src/*
 !/src/*.jl

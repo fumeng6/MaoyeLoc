@@ -1,0 +1,182 @@
+[
+  {
+    "component": "llvm",
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-20.1.8/LICENSE.TXT",
+    "file": "licenses\\llvm.txt"
+  },
+  {
+    "component": "libuv",
+    "url": "https://raw.githubusercontent.com/JuliaLang/libuv/master/LICENSE",
+    "file": "licenses\\libuv.txt"
+  },
+  {
+    "component": "libunwind",
+    "url": "https://raw.githubusercontent.com/libunwind/libunwind/master/LICENSE",
+    "file": "licenses\\libunwind.txt"
+  },
+  {
+    "component": "libgit2",
+    "url": "https://raw.githubusercontent.com/libgit2/libgit2/v1.9.7/COPYING",
+    "file": "licenses\\libgit2.txt"
+  },
+  {
+    "component": "libssh2",
+    "url": "https://raw.githubusercontent.com/libssh2/libssh2/master/COPYING",
+    "file": "licenses\\libssh2.txt"
+  },
+  {
+    "component": "curl",
+    "url": "https://raw.githubusercontent.com/curl/curl/master/COPYING",
+    "file": "licenses\\curl.txt"
+  },
+  {
+    "component": "openssl",
+    "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.5.8/LICENSE.txt",
+    "file": "licenses\\openssl.txt"
+  },
+  {
+    "component": "openblas",
+    "url": "https://raw.githubusercontent.com/OpenMathLib/OpenBLAS/v0.3.30/LICENSE",
+    "file": "licenses\\openblas.txt"
+  },
+  {
+    "component": "openlibm",
+    "url": "https://raw.githubusercontent.com/JuliaMath/openlibm/master/LICENSE.md",
+    "file": "licenses\\openlibm.txt"
+  },
+  {
+    "component": "nghttp2",
+    "url": "https://raw.githubusercontent.com/nghttp2/nghttp2/master/COPYING",
+    "file": "licenses\\nghttp2.txt"
+  },
+  {
+    "component": "zlib",
+    "url": "https://raw.githubusercontent.com/madler/zlib/master/LICENSE",
+    "file": "licenses\\zlib.txt"
+  },
+  {
+    "component": "zstd",
+    "url": "https://raw.githubusercontent.com/facebook/zstd/v1.5.7/LICENSE",
+    "file": "licenses\\zstd.txt"
+  },
+  {
+    "component": "dsfmt",
+    "url": "https://raw.githubusercontent.com/MersenneTwister-Lab/dSFMT/v2.2.5/LICENSE.txt",
+    "file": "licenses\\dsfmt.txt"
+  },
+  {
+    "component": "pcre2",
+    "url": "https://raw.githubusercontent.com/PCRE2Project/pcre2/pcre2-10.46/LICENCE.md",
+    "file": "licenses\\pcre2.txt"
+  },
+  {
+    "component": "lgpl3",
+    "url": "https://www.gnu.org/licenses/lgpl-3.0.txt",
+    "file": "licenses\\lgpl3.txt"
+  },
+  {
+    "component": "lgpl2.1",
+    "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+    "file": "licenses\\lgpl2.1.txt"
+  },
+  {
+    "component": "gmp",
+    "url": "https://raw.githubusercontent.com/gmp-mirror/gmp/master/COPYING.LESSERv3",
+    "file": "licenses\\gmp.txt"
+  },
+  {
+    "component": "mpfr",
+    "url": "https://raw.githubusercontent.com/P-p-H-d/mpfr/master/COPYING.LESSER",
+    "file": "licenses\\mpfr.txt"
+  },
+  {
+    "component": "7zip",
+    "url": "https://www.7-zip.org/license.txt",
+    "file": "licenses\\7zip.txt"
+  },
+  {
+    "component": "suitesparse",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/LICENSE.txt",
+    "file": "licenses\\suitesparse.txt"
+  },
+  {
+    "component": "suitesparse-amd",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/AMD/Doc/License.txt",
+    "file": "licenses\\suitesparse-amd.txt"
+  },
+  {
+    "component": "suitesparse-camd",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/CAMD/Doc/License.txt",
+    "file": "licenses\\suitesparse-camd.txt"
+  },
+  {
+    "component": "suitesparse-ccolamd",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/CCOLAMD/Doc/License.txt",
+    "file": "licenses\\suitesparse-ccolamd.txt"
+  },
+  {
+    "component": "suitesparse-colamd",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/COLAMD/Doc/License.txt",
+    "file": "licenses\\suitesparse-colamd.txt"
+  },
+  {
+    "component": "suitesparse-btf",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/BTF/Doc/License.txt",
+    "file": "licenses\\suitesparse-btf.txt"
+  },
+  {
+    "component": "suitesparse-klu",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/KLU/Doc/License.txt",
+    "file": "licenses\\suitesparse-klu.txt"
+  },
+  {
+    "component": "suitesparse-ldl",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/LDL/Doc/License.txt",
+    "file": "licenses\\suitesparse-ldl.txt"
+  },
+  {
+    "component": "suitesparse-cholmod",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/CHOLMOD/Doc/License.txt",
+    "file": "licenses\\suitesparse-cholmod.txt"
+  },
+  {
+    "component": "suitesparse-rbio",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/RBio/Doc/License.txt",
+    "file": "licenses\\suitesparse-rbio.txt"
+  },
+  {
+    "component": "suitesparse-spqr",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/SPQR/Doc/License.txt",
+    "file": "licenses\\suitesparse-spqr.txt"
+  },
+  {
+    "component": "suitesparse-umfpack",
+    "url": "https://raw.githubusercontent.com/DrTimothyAldenDavis/SuiteSparse/v7.10.1/UMFPACK/Doc/License.txt",
+    "file": "licenses\\suitesparse-umfpack.txt"
+  },
+  {
+    "component": "libblastrampoline",
+    "url": "https://raw.githubusercontent.com/JuliaLinearAlgebra/libblastrampoline/main/LICENSE.md",
+    "file": "licenses\\libblastrampoline.txt"
+  },
+  {
+    "component": "gpl3",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-3.0-or-later.txt",
+    "file": "licenses\\gpl3.txt"
+  },
+  {
+    "component": "gcc-runtime-exception",
+    "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/master/COPYING.RUNTIME",
+    "file": "licenses\\gcc-runtime-exception.txt"
+  },
+  {
+    "component": "gpl2",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-or-later.txt",
+    "file": "licenses\\gpl2.txt"
+  },
+  {
+    "component": "mpl2",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MPL-2.0.txt",
+    "file": "licenses\\mpl2.txt"
+  }
+]

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite MaoyeLoc and the original methods used in your study. See NOTICE.md and docs/MaoyeLoc原理.md."
+type: software
+title: MaoyeLoc
+version: 1.0.0
+date-released: 2026-11-06
+authors:
+  - name: fumeng6
+repository-code: "https://github.com/fumeng6/maoyeloc"
+url: "https://github.com/fumeng6/maoyeloc"
+license: MIT
+abstract: "Julia software for local earthquake location, double-difference relocation, magnitude calculation, and conditional uncertainty estimation."
+keywords:
+  - earthquake location
+  - double-difference relocation
+  - seismology
+  - Julia

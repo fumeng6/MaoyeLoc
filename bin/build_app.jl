@@ -40,6 +40,11 @@ mktempdir() do staging
         cp(joinpath(@__DIR__,name),joinpath(destination,"bin",name))
     end
     cp(joinpath(root,"README.md"),joinpath(destination,"README.md"))
+    for name in ("LICENSE","NOTICE.md","CITATION.cff")
+        cp(joinpath(root,name),joinpath(destination,name))
+    end
+    cp(joinpath(root,"third_party"),joinpath(destination,"third_party"))
+    cp(joinpath(root,"third_party","THIRDPARTY.md"),joinpath(destination,"THIRDPARTY.md"))
     mkpath(joinpath(destination,"docs"))
     for name in ("用户手册.md","数据约定.md","MaoyeLoc原理.md")
         cp(joinpath(root,"docs",name),joinpath(destination,"docs",name))

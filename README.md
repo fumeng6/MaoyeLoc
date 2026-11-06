@@ -108,9 +108,15 @@ Julia 脚本可通过 `prepare_case` 和 `run_case` 执行配置，也可向 `tr
 | `docs/MaoyeLoc原理.md` | 方程、数值方法、物理假设与误差含义 |
 | `Project.toml` | Julia 包信息与依赖 |
 
+## 开源许可与引用
+
+MaoyeLoc 自身实现与文档采用 **MIT License**，允许使用、修改、再分发和集成，分发时保留版权和许可声明。原作者作品与运行库的权利及条款见来源说明。项目提供 CITATION.cff 供学术引用。
+
+[许可全文](LICENSE) · [来源与第三方说明](NOTICE.md) · [引用信息](CITATION.cff)
+
 ## 方法来源与引用
 
-绝对定位的经验加权、部分步长控制及震级关系参考 Fred W. Klein 的 HYPOINVERSE-2000。双差方程、分阶段加权及列缩放阻尼参考 Felix Waldhauser 的 HypoDD。具体采用的公式和数值规则在原理文档中说明，研究中请引用实际使用的方法。
+绝对定位采用逐次线性化与加权最小二乘，双差重定位采用 Waldhauser 与 Ellsworth 的到时差方程，稀疏求解采用 Paige 与 Saunders 的 LSQR。具体公式、经验关系及数值选择见原理文档，源码参考和数据表出处集中记于来源说明。研究中请引用实际采用的方法。
 
 1. Klein, F. W. (2002). *User’s Guide to HYPOINVERSE-2000, a Fortran Program to Solve for Earthquake Locations and Magnitudes.* USGS Open-File Report 02-171. [用户指南](https://pubs.usgs.gov/of/2002/0171/)
 2. Waldhauser, F., & Ellsworth, W. L. (2000). *A Double-Difference Earthquake Location Algorithm: Method and Application to the Northern Hayward Fault, California.* BSSA, 90(6), 1353–1368. [论文](https://doi.org/10.1785/0120000006)
