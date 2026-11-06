@@ -1,0 +1,37 @@
+# Public distribution: program, general data and user documentation.
+/*
+!/.gitignore
+!/Project.toml
+!/README.md
+!/src/
+/src/*
+!/src/*.jl
+!/src/data/
+/src/data/*
+!/src/data/geographic_regions.toml
+!/bin/
+/bin/*
+!/bin/*.jl
+!/bin/install.ps1
+!/bin/install.sh
+!/bin/myloc.cmd
+!/bin/add_manifest.ps1
+!/bin/windows.manifest
+!/ext/
+/ext/*
+!/ext/*.jl
+!/docs/
+/docs/*
+!/docs/用户手册.md
+!/docs/数据约定.md
+!/docs/MaoyeLoc原理.md
+
+# Local development instructions, checks, records and results stay on this machine.
+/AGENTS.md
+/scripts/
+/local_archive/
+*.ji
+*.cov
+*.mem
+.DS_Store
+Thumbs.db

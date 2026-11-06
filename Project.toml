@@ -1,0 +1,21 @@
+name = "MaoyeLoc"
+uuid = "7b855905-bae0-43d8-9240-c9445fc72b75"
+version = "1.0.0"
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[weakdeps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+
+[extensions]
+MaoyeLocCairoMakieExt = "CairoMakie"
+
+[compat]
+CairoMakie = "0.15"
+julia = "1.11"
